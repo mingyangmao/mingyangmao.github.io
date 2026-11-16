@@ -57,7 +57,7 @@ window.ACADEMIC_DATA = {
       venue: 'arXiv preprint, 2026', note: 'Preprint · under review',
       summary: 'A benchmark with 2,500 questions drawn from 1,811 recipes and 13 health conditions, testing grounded food suitability judgments and comparative reasoning.',
       image: 'assets/images/fam.png',
-      links: [{name:'arXiv',url:'https://arxiv.org/abs/2605.31410'},{name:'PDF',url:'https://arxiv.org/pdf/2605.31410'}]
+      links: [{name:'arXiv',url:'https://arxiv.org/abs/2605.31410'},{name:'PDF',url:'https://arxiv.org/pdf/2605.31410'},{name:'Project',url:'https://mingyangmao.github.io/FAM/'}]
     },
     {
       id: 'multirag', year: 2026, selected: true, category: 'Multimodal AI',
@@ -108,7 +108,7 @@ window.ACADEMIC_DATA = {
   projects: [
     {title:'Budgeted KV-Cache Repair', status:'Research · Preprint', category:'Systems', description:'Evaluating how to repair cached language-model states after document edits with only a small recomputation budget. Includes matched direct and derived QA, causal dependency diagnostics, and efficiency measurements.', tags:['PyTorch','Llama / Qwen / Mistral','RAG'], image:'assets/images/kvedits.png', links:[{name:'Paper',url:'https://arxiv.org/abs/2609.17983'}]},
     {title:'VLA and World-Model-Guided Planning', status:'Ongoing research', category:'Robotics', description:'Studying action proposal, particle-based search, MPC/MPPI, and simulation-in-the-loop evaluation for robotic manipulation. Research direction, not a published result.', tags:['VLA','World models','MPC / MPPI','Isaac Sim'], image:'assets/images/robotics.svg', links:[]},
-    {title:'FAM-Bench', status:'Research · Preprint', category:'Multimodal AI', description:'A condition-aware benchmark for grounded food suitability judgments in vision-language models, with dish-level and comparative tasks.', tags:['Vision-language models','Evaluation','Reasoning'], image:'assets/images/fam.png', links:[{name:'Paper',url:'https://arxiv.org/abs/2605.31410'}]},
+    {title:'FAM-Bench', status:'Research · Preprint', category:'Multimodal AI', description:'A condition-aware benchmark for grounded food suitability judgments in vision-language models, with dish-level and comparative tasks.', tags:['Vision-language models','Evaluation','Reasoning'], image:'assets/images/fam.png', links:[{name:'Paper',url:'https://arxiv.org/abs/2605.31410'},{name:'Project',url:'https://mingyangmao.github.io/FAM/'}]},
     {title:'Multi-RAG for Video Understanding', status:'Published research · PAKDD 2026', category:'Multimodal AI', description:'An adaptive video understanding system that integrates retrieval and multimodal evidence with language-model reasoning.', tags:['Multimodal RAG','Video understanding'], image:'assets/images/multi-rag.png', links:[{name:'Publication',url:'https://doi.org/10.1007/978-981-92-1947-6_30'}]},
     {title:'Edge AI / FPGA Inference', status:'Engineering project', category:'Systems', description:'Quantized neural-network deployment on embedded and FPGA platforms, with INT8 model optimization and accelerators such as NVDLA on Zynq.', tags:['FPGA','NVDLA','INT8','Embedded AI'], image:'assets/images/edge-ai.svg', links:[]},
     {title:'ConvoAid: RAG Meeting Assistant', status:'Engineering project', category:'Systems', description:'An interactive desktop assistant that combines streaming speech transcription, document ingestion, and retrieval-augmented question answering.', tags:['Python','PyQt6','Chroma','Speech-to-text'], image:'assets/images/multi-rag.svg', links:[]}
