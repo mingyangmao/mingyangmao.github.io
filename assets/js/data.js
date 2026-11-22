@@ -48,7 +48,7 @@ window.ACADEMIC_DATA = {
       venue: 'arXiv preprint, 2026', note: 'Preprint · under review',
       summary: 'A controlled study of budgeted KV-cache recomputation after factual document edits, comparing edit-local and importance-based repair policies.',
       image: 'assets/images/kvedits.png',
-      links: [{name:'arXiv',url:'https://arxiv.org/abs/2609.17983'},{name:'PDF',url:'https://arxiv.org/pdf/2609.17983'}]
+      links: [{name:'arXiv',url:'https://arxiv.org/abs/2609.17983'},{name:'PDF',url:'https://arxiv.org/pdf/2609.17983'},{name:'Code',url:'https://github.com/mingyangmao/KVEdit'}]
     },
     {
       id: 'fam', year: 2026, selected: true, category: 'Multimodal AI',
