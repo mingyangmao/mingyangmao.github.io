@@ -83,7 +83,7 @@ window.ACADEMIC_DATA = {
       authors: 'Sahasra Kondapalli, Lara Radovanovic, Aadi Palnitkar, Mingyang Mao, Xiaomin Lin',
       venue: 'IEEE International Conference on Development and Learning (ICDL), 2026', note: 'Conference paper',
       summary: 'Evaluates visual logical anomaly detection using a tiered prompting protocol.',
-      image: 'assets/images/fam-bench.svg',
+      image: 'assets/images/ladbench.png',
       links: [{name:'arXiv',url:'https://arxiv.org/abs/2606.17433'},{name:'Project',url:'https://era-research-lab.github.io/projects/ladbench/'}]
     },
     {
@@ -92,7 +92,7 @@ window.ACADEMIC_DATA = {
       authors: 'Utkarsh Grover, Ravi Ranjan, Mingyang Mao, Trung Tien Dong, Satvik Praveen, Zhenqi Wu, J. Morris Chang, Tinoosh Mohsenin, Yi Sheng, Agoritsa Polyzou, Eiman Kanjo, Xiaomin Lin',
       venue: 'arXiv preprint, 2026', note: 'Survey · Preprint',
       summary: 'Surveys systems-level barriers to deploying embodied foundation models on resource-constrained hardware.',
-      image: 'assets/images/robotics.svg',
+      image: 'assets/images/edge-survey.png',
       links: [{name:'arXiv',url:'https://arxiv.org/abs/2603.16952'}]
     },
     {
@@ -101,7 +101,7 @@ window.ACADEMIC_DATA = {
       authors: 'Aadi Palnitkar, Mingyang Mao, Nicholas R. Waytowich, Vinicius G. Goecks, Tinoosh Mohsenin, Xiaomin Lin',
       venue: 'arXiv preprint, 2026', note: 'Preprint',
       summary: 'Evaluates multi-hop, long-context geospatial reasoning across heterogeneous evidence in planning tasks.',
-      image: 'assets/images/cache-repair.svg',
+      image: 'assets/images/milscore.png',
       links: [{name:'arXiv',url:'https://arxiv.org/abs/2601.21826'}]
     }
   ],
