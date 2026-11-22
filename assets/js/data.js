@@ -66,7 +66,7 @@ window.ACADEMIC_DATA = {
       venue: 'Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), 2026', note: 'Conference paper',
       summary: 'A multimodal retrieval-augmented system to support adaptive understanding of video content.',
       image: 'assets/images/multi-rag.png',
-      links: [{name:'Publisher',url:'https://doi.org/10.1007/978-981-92-1947-6_30'}]
+      links: [{name:'Publisher',url:'https://doi.org/10.1007/978-981-92-1947-6_30'},{name:'Code',url:'https://github.com/mingyangmao/RAG-LLM-ARL-demo'}]
     },
     {
       id: 'adp', year: 2026, selected: true, category: 'Robotics',
