@@ -76,3 +76,7 @@ a:hover,a:focus-visible{text-decoration:underline;text-underline-offset:2px;}
 .sidebar-location{display:flex;align-items:center;gap:10px}
 .sidebar-location .symbol{display:inline-flex;align-items:center;justify-content:center;width:17px;color:#1c2227}
 .sidebar-location .symbol svg{width:14px;height:14px;display:block}
+
+/* Thumbnails: scale each figure down to fit inside its frame instead of cropping it */
+.pub-thumb,.project-thumb{background:#fff;display:flex;align-items:center;justify-content:center;padding:4px;box-sizing:border-box}
+.pub-thumb img,.project-thumb img{width:100%;height:100%;object-fit:contain}
